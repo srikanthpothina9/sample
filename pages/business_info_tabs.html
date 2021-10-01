@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Naxetra</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/page_styles.css">
+    <link rel="stylesheet" href="../assets/content/font/flaticon.css">
+    <link rel="stylesheet" href="../assets/content/fa/css/all.css">
+
+    <link rel="stylesheet" href="../assets/content/bootstrap-4.3.1/dist/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="../assets/content/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/content/owlcarousel/assets/owl.theme.default.min.css">
+
+
+
+
+    <script src="../assets/content/jquery-3.3.1.slim.min.js"></script>
+    <script src="../assets/content/popper.min.js"></script>
+    <script src="../assets/content/bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="../assets/images/logo.png" alt="Naxetra"
+                        class="nav-logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="flaticon-home"></i> <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            |
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link log" href="#">Login</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="tabs_only">
+            <section class="design-process-section" id="process-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <!-- design process steps-->
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
+                                <li role="presentation" class="active"><a href="#v_phone" aria-controls="v_phone"
+                                        role="tab" data-toggle="tab"><i class="dot" aria-hidden="true"></i>
+                                        <p>Verify Phone</p>
+                                    </a></li>
+                                <li role="presentation"><a href="#v_email" aria-controls="v_email" role="tab"
+                                        data-toggle="tab"><i class="dot" aria-hidden="true"></i>
+                                        <p>VERIFY EMAIL</p>
+                                    </a></li>
+                                <li role="presentation"><a href="#v_address" aria-controls="v_address" role="tab"
+                                        data-toggle="tab"><i class="dot" aria-hidden="true"></i>
+                                        <p>ADDRESS</p>
+                                    </a></li>
+                                <li role="presentation"><a href="#v_acc_type" aria-controls="v_acc_type" role="tab"
+                                        data-toggle="tab"><i class="dot" aria-hidden="true"></i>
+                                        <p>ACCOUNT TYPE</p>
+                                    </a></li>
+                                <li role="presentation"><a href="#v_bus_info" aria-controls="v_bus_info" role="tab"
+                                        data-toggle="tab"><i class="dot" aria-hidden="true"></i>
+                                        <p>BUSINESS INFO</p>
+                                    </a></li>
+                                <li role="presentation"><a href="#v_company" aria-controls="v_company" role="tab"
+                                        data-toggle="tab"><i class="dot" aria-hidden="true"></i>
+                                        <p>SELECT COMPANY</p>
+                                    </a></li>
+                                <li role="presentation"><a href="#v_officer" aria-controls="v_officer" role="tab"
+                                        data-toggle="tab"><i class="dot" aria-hidden="true"></i>
+                                        <p>SELECT OFFICER</p>
+                                    </a></li>
+                            </ul>
+                            <!-- end design process steps-->
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="v_phone">
+                                    <div class="design-process-content row">
+                                        <div class="col-sm-6 first_set">
+                                            <div class="tab_form-group">
+                                                <p>+1 7722 334 455</p>
+                                                <input type="text" class="enter_otp" name="otp" placeholder="Enter OTP">
+                                                <a href="" class="a_resend">Resend Code</a>
+                                            </div>
+                                            <button class="btn btn-primary">Validate</button>
+                                        </div>
+                                        <div class="col-sm-6 text-center">
+                                            <div class="tab_img_div">
+                                                <img src="../assets/images/phone-in-hand.svg" class="tab-img">
+                                            </div>
+
+                                            <p class="otp_para">We have sent an One Time Password to your Phone number.
+                                                Please validate to
+                                                proceed.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="v_email">
+                                    <div class="design-process-content row">
+                                        <div class="col-sm-6 first_set">
+                                            <div class="tab_form-group">
+                                                <p class="mail_address">John.doe@gmail.com</p>
+                                                <input type="text" class="enter_otp" name="otp" placeholder="Enter OTP">
+                                                <a href="" class="a_resend">Resend Code</a>
+                                            </div>
+                                            <button class="btn btn-primary">Validate</button>
+                                        </div>
+                                        <div class="col-sm-6 text-center">
+                                            <div class="tab_img_div">
+                                                <img src="../assets/images/email-otp.svg" class="tab-img">
+                                            </div>
+                                            <p class="otp_para">We have sent an One Time Password to your Phone number.
+                                                Please validate to
+                                                proceed.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="v_address">
+                                    <div class="design-process-content">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-sm-4 post_code">
+                                                    <input type="text" class="from-group" placeholder="Post Code">
+                                                    <button class="search_icon"><i class="fas fa-search"></i></button>
+                                                </div>
+                                                <div class="col-sm-8">
+                                                    <select>
+                                                        <option>Select Adress</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="col-sm-4">
+                                                    <input type="text" class="from-group" placeholder="House No.">
+
+                                                </div>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="from-group" placeholder="Building Name">
+                                                </div>
+
+                                                <div class="col-sm-4">
+                                                    <input type="text" class="from-group" placeholder="Adress Info">
+
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <input type="text" class="from-group" placeholder="Street Name">
+
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <input type="text" class="from-group" placeholder="City">
+
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <input type="text" class="from-group" placeholder="County">
+
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <input type="text" class="from-group" placeholder="Country">
+
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <input type="text" class="from-group" placeholder="Nationality">
+
+                                                </div>
+                                                <div class="col-sm-12 text-center form-btn">
+                                                    <button class="btn btn-primary">Submit</button>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="v_acc_type">
+                                    <div class="design-process-content">
+                                        <div class="cards">
+                                            <label>
+                                                <input type="radio" name="product" class="cards-body-element" />
+
+                                                <div class="cards-body">
+                                                    <img src="../assets/images/personal.svg" class="cards-img">
+                                                    <label class="cards-label">Personal</label>
+                                                    <span class="rad_checked"></span>
+                                                </div>
+
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="product" class="cards-body-element" />
+
+                                                <div class="cards-body">
+                                                    <img src="../assets/images/business.svg" class="cards-img">
+                                                    <label class="cards-label">Business</label>
+                                                    <span class="rad_checked"></span>
+
+                                                </div>
+
+                                            </label>
+                                            <div class="form-btn">
+                                                <button class="btn btn-primary">PROCEED</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="v_bus_info">
+                                    <div class="design-process-content">
+                                        <div class="col-sm-12">
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <div class="row">
+                                                        <form>
+                                                            <div class="col-sm-12 no-padding">
+                                                                <select>
+                                                                    <option>Select Adress</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="col-sm-12 no-padding">
+                                                                <input type="text" class="from-group"
+                                                                    placeholder="House No.">
+                                                            </div>
+                                                            <div class="col-sm-12 no-padding">
+                                                                <input type="text" class="from-group"
+                                                                    placeholder="House No.">
+                                                            </div>
+                                                            <div class="form-btn">
+                                                                <button class="btn btn-primary">PROCEED</button>
+                                                            </div>
+                                                        </form>
+
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6 offset-sm-1 text-center">
+                                                    <img src="../assets/images/business_info.svg" class="bus_info_img">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="v_company">
+                                    <div class="design-process-content">
+                                        <div class="row">
+
+                                            <div class="col-sm-4 sel_company">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio" checked>
+
+                                                    <label class="control-label">
+                                                        <div class="limited">Venture Limited</div>
+                                                        <div class="dissolved"><b>02090031</b> Dissolved on 5 April 2016
+                                                        </div>
+                                                        <div class="addr">Venture Tower, fraction Road, Portsmouth,
+                                                            Hampshire, PO1 5DL</div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-4 sel_company">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio">
+
+                                                    <label class="control-label">
+                                                        <div class="limited">Venture Limited</div>
+                                                        <div class="dissolved"><b>02090031</b> Dissolved on 5 April 2016
+                                                        </div>
+                                                        <div class="addr">Venture Tower, fraction Road, Portsmouth,
+                                                            Hampshire, PO1 5DL</div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-4 sel_company">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio">
+
+                                                    <label class="control-label">
+                                                        <div class="limited">Venture Limited</div>
+                                                        <div class="dissolved"><b>02090031</b> Dissolved on 5 April 2016
+                                                        </div>
+                                                        <div class="addr">Venture Tower, fraction Road, Portsmouth,
+                                                            Hampshire, PO1 5DL</div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-4 sel_company">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio">
+
+                                                    <label class="control-label">
+                                                        <div class="limited">Venture Limited</div>
+                                                        <div class="dissolved"><b>02090031</b> Dissolved on 5 April 2016
+                                                        </div>
+                                                        <div class="addr">Venture Tower, fraction Road, Portsmouth,
+                                                            Hampshire, PO1 5DL</div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-4 sel_company">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio">
+
+                                                    <label class="control-label">
+                                                        <div class="limited">Venture Limited</div>
+                                                        <div class="dissolved"><b>02090031</b> Dissolved on 5 April 2016
+                                                        </div>
+                                                        <div class="addr">Venture Tower, fraction Road, Portsmouth,
+                                                            Hampshire, PO1 5DL</div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-4 sel_company">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio">
+
+                                                    <label class="control-label">
+                                                        <div class="limited">Venture Limited</div>
+                                                        <div class="dissolved"><b>02090031</b> Dissolved on 5 April 2016
+                                                        </div>
+                                                        <div class="addr">Venture Tower, fraction Road, Portsmouth,
+                                                            Hampshire, PO1 5DL</div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-4 sel_company">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio">
+
+                                                    <label class="control-label">
+                                                        <div class="limited">Venture Limited</div>
+                                                        <div class="dissolved"><b>02090031</b> Dissolved on 5 April 2016
+                                                        </div>
+                                                        <div class="addr">Venture Tower, fraction Road, Portsmouth,
+                                                            Hampshire, PO1 5DL</div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-4 sel_company">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio">
+
+                                                    <label class="control-label">
+                                                        <div class="limited">Venture Limited</div>
+                                                        <div class="dissolved"><b>02090031</b> Dissolved on 5 April 2016
+                                                        </div>
+                                                        <div class="addr">Venture Tower, fraction Road, Portsmouth,
+                                                            Hampshire, PO1 5DL</div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-4 sel_company">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio">
+
+                                                    <label class="control-label">
+                                                        <div class="limited">Venture Limited</div>
+                                                        <div class="dissolved"><b>02090031</b> Dissolved on 5 April 2016
+                                                        </div>
+                                                        <div class="addr">Venture Tower, fraction Road, Portsmouth,
+                                                            Hampshire, PO1 5DL</div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-12 form-btn text-center">
+                                                <button class="btn btn-primary">PROCEED</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="v_officer">
+                                    <div class="design-process-content">
+                                        <div class="row">
+                                            <div class="col-sm-4 sel_officer">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio" checked>
+
+                                                    <label class="control-label">
+                                                        <div class="limited">LEWIS, Carlos</div>
+                                                        <div class="dissolved">
+                                                            <label class="corr_addr">Correspondence Address</label>
+                                                            <label class="cor_address">68 King William Street, London,
+                                                                England, EC4N 7DZ</label>
+                                                        </div>
+                                                        <div class="addr">
+                                                            <div class="row">
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Role</label>
+                                                                    <label class="sel_off_body">Director</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Date of Birth</label>
+                                                                    <label class="sel_off_body">February 1987</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Appointed on</label>
+                                                                    <label class="sel_off_body">28 March 2014</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Nationality</label>
+                                                                    <label class="sel_off_body">Others</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Country of
+                                                                        Residence</label>
+                                                                    <label class="sel_off_body">Residence</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Occupation</label>
+                                                                    <label class="sel_off_body">Private</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-4 sel_officer">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio">
+
+                                                    <label class="control-label">
+                                                        <div class="limited">LEWIS, Carlos</div>
+                                                        <div class="dissolved">
+                                                            <label class="corr_addr">Correspondence Address</label>
+                                                            <label class="cor_address">68 King William Street, London,
+                                                                England, EC4N 7DZ</label>
+                                                        </div>
+                                                        <div class="addr">
+                                                            <div class="row">
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Role</label>
+                                                                    <label class="sel_off_body">Director</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Date of Birth</label>
+                                                                    <label class="sel_off_body">February 1987</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Appointed on</label>
+                                                                    <label class="sel_off_body">28 March 2014</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Nationality</label>
+                                                                    <label class="sel_off_body">Others</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Country of
+                                                                        Residence</label>
+                                                                    <label class="sel_off_body">Residence</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Occupation</label>
+                                                                    <label class="sel_off_body">Private</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-4 sel_officer">
+                                                <span class="label--radio" data-children-count="1">
+                                                    <input type="radio" id="company" name="Type" value="company"
+                                                        class="radio">
+
+                                                    <label class="control-label">
+                                                        <div class="limited">LEWIS, Carlos</div>
+                                                        <div class="dissolved">
+                                                            <label class="corr_addr">Correspondence Address</label>
+                                                            <label class="cor_address">68 King William Street, London,
+                                                                England, EC4N 7DZ</label>
+                                                        </div>
+                                                        <div class="addr">
+                                                            <div class="row">
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Role</label>
+                                                                    <label class="sel_off_body">Director</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Date of Birth</label>
+                                                                    <label class="sel_off_body">February 1987</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Appointed on</label>
+                                                                    <label class="sel_off_body">28 March 2014</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Nationality</label>
+                                                                    <label class="sel_off_body">Others</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Country of
+                                                                        Residence</label>
+                                                                    <label class="sel_off_body">Residence</label>
+                                                                </div>
+
+                                                                <div class="col-sm-6 office_det">
+                                                                    <label class="sel_off_title">Occupation</label>
+                                                                    <label class="sel_off_body">Private</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </label>
+                                                </span>
+                                            </div>
+
+                                            <div class="col-sm-12 form-btn text-center">
+                                                <button class="btn btn-primary">PROCEED</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+        </div>
+    </section>
+
+
+    <script src="../assets/js/scripts.js"></script>
+</body>
+
+</html>
